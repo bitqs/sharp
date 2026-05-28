@@ -56,7 +56,6 @@ Enter Sharp mode and maintain it for all subsequent replies until the user expli
 Any of:
 - `stop sharp`
 - `normal mode`
-- `正常模式`
 
 ## Trigger
 
