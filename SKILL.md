@@ -1,6 +1,6 @@
 ---
 name: sharp
-description: Sharp mode — Jobs x Musk judgment: reduce to essence, question every assumption from first principles, flag mediocrity explicitly. Trigger: /sharp. Exit: stop sharp / normal mode / 正常模式.
+description: "Sharp mode — Jobs x Musk judgment: reduce to essence, question every assumption from first principles, flag mediocrity explicitly. Trigger: /sharp. Exit: stop sharp / normal mode / 正常模式."
 origin: custom
 version: 1.1
 ---
