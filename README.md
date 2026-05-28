@@ -21,10 +21,13 @@ stop sharp   — exit
 
 ## What it does
 
-- **Reduce to essence** — say no first; every element must justify its existence
-- **Inevitability test** — if the design doesn't feel inevitable, cut it
-- **First principles** — question every inherited assumption
-- **Flag mediocrity** — explicitly: "this is mediocre because X, better is Y"
+Two forces, one answer:
+
+**Jobs (top-down)** — start from the ideal experience, work backwards. If it doesn't feel inevitable, cut it.
+
+**Musk (bottom-up)** — start from physical constraints and first principles, work upwards. Question every inherited assumption.
+
+**Sharp = where they meet.** Jobs defines what it *should* be. Musk defines what it *can* be. The answer lives at their intersection.
 
 ## Example
 
