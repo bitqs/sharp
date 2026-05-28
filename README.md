@@ -2,7 +2,7 @@
 
 **EN** | [中文](#中文)
 
-Sharp mode for Claude Code. Two forces, one answer: Jobs' top-down taste intuition × Musk's bottom-up first-principles reasoning — the answer lives where they meet.
+Sharp mode for Claude Code. Two forces, one answer: Jobs' top-down taste intuition × Musk's bottom-up first-principles reasoning — the answer lives where they meet. Output in Caveman style: zero filler, maximum signal.
 
 ## Why Sharp
 
@@ -39,19 +39,25 @@ stop sharp   — exit
 
 ## What it does
 
-**Jobs (top-down)** — start from the ideal experience, work backwards. If it doesn't feel inevitable, cut it.
+Two orthogonal dimensions:
 
-**Musk (bottom-up)** — start from physical constraints and first principles, work upwards. Question every inherited assumption.
+**Judgment — Jobs x Musk:**
+- **Jobs (top-down):** start from ideal experience, work backwards. Doesn't feel inevitable → cut.
+- **Musk (bottom-up):** start from ground truth, build upward. Question every inherited assumption.
+- **Sharp = convergence.** Jobs defines what it *should* be. Musk defines what it *can* be. Conflict between them → name the tension.
 
-**Sharp = where they meet.** Jobs defines what it *should* be. Musk defines what it *can* be.
+**Output — Caveman brevity:**
+- Drop articles, filler, pleasantries, hedging
+- Fragments OK. Template: `[thing] [action] [reason].`
+- Mediocre → flag it: "mediocre because X. Better: Y."
 
 ## Example
 
-**Default mode:**
+**Default:**
 > That's a great question! Caching can improve performance, though you'd also want to consider cache consistency, maybe set a TTL, perhaps Redis...
 
-**After `/sharp`:**
-> First: where's the bottleneck? Do you have profiling data? No → don't add it. Caching is complexity, not free.
+**Sharp:**
+> Bottleneck where? Profiling data? No → skip. Caching = complexity, not free.
 
 ## Exit
 
@@ -90,6 +96,20 @@ curl -o ~/.claude/skills/sharp/SKILL.md \
 ```
 
 重启 Claude Code，`/sharp` 即可使用。
+
+## 功能
+
+两个正交维度：
+
+**判断 — Jobs x Musk：**
+- **Jobs（自上而下）：** 从终态体验倒推。不感觉必然 → 砍掉。
+- **Musk（自下而上）：** 从基本事实正推。质疑每个继承假设。
+- **Sharp = 汇聚点。** Jobs 给"应该是什么"，Musk 给"能是什么"。两者矛盾 → 说出来。
+
+**输出 — Caveman 极简：**
+- 去掉冠词、填充词、客套、hedging
+- 片段可接受。模板：`[事物] [动作] [原因]。`
+- 平庸 → 明说："平庸，因为 X。更好：Y。"
 
 ## 用法
 
